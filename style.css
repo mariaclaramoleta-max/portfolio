@@ -1,0 +1,159 @@
+/* ===============================
+   ESTILO GERAL
+================================*/
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #f5f6fa;
+    color: #333;
+    line-height: 1.6;
+}
+
+/* ===============================
+   CABEÇALHO
+================================*/
+header {
+    background-color: #2D6CDF;
+    padding: 20px;
+    text-align: center;
+    color: white;
+    box-shadow: 0px 2px 4px rgba(0,0,0,0.15);
+    position: sticky;
+    top: 0;
+    z-index: 10;
+}
+
+header h1 {
+    margin-bottom: 10px;
+    font-size: 32px;
+    letter-spacing: 1px;
+}
+
+header nav a {
+    color: #ffffff;
+    margin: 0 15px;
+    text-decoration: none;
+    font-weight: bold;
+    transition: 0.3s;
+}
+
+header nav a:hover {
+    color: #dce6ff;
+}
+
+/* ===============================
+   SEÇÕES GERAIS
+================================*/
+.secao {
+    width: 900px;
+    max-width: 90%;
+    background: white;
+    margin: 40px auto;
+    padding: 25px;
+    border-radius: 10px;
+    box-shadow: 0px 4px 10px rgba(0,0,0,0.08);
+}
+
+.secao h2 {
+    margin-bottom: 20px;
+    color: #2D6CDF;
+}
+
+/* ===============================
+   FOTO PERFIL
+================================*/
+.foto-perfil {
+    width: 160px;
+    border-radius: 100%;
+    display: block;
+    margin-bottom: 20px;
+    border: 4px solid #2D6CDF;
+}
+
+/* ===============================
+   LISTAS (FORMAÇÃO)
+================================*/
+ul {
+    list-style: none;
+    padding-left: 0;
+}
+
+ul li {
+    margin-bottom: 10px;
+    font-size: 16px;
+}
+
+/* ===============================
+   PORTFÓLIO
+================================*/
+.projeto {
+    margin-bottom: 25px;
+    display: flex;
+    flex-direction: column;
+}
+
+.projeto img {
+    width: 300px;
+    border-radius: 8px;
+    box-shadow: 0px 3px 8px rgba(0,0,0,0.1);
+    margin-bottom: 10px;
+}
+
+/* ===============================
+   FORMULÁRIO
+================================*/
+form label {
+    font-weight: bold;
+}
+
+form input,
+form textarea {
+    width: 100%;
+    padding: 12px;
+    margin-bottom: 15px;
+    border-radius: 6px;
+    border: 1px solid #ccc;
+    font-size: 14px;
+}
+
+form textarea {
+    height: 120px;
+}
+
+/* Botão */
+button {
+    background-color: #2D6CDF;
+    border: none;
+    padding: 12px 25px;
+    color: white;
+    border-radius: 6px;
+    cursor: pointer;
+    transition: 0.3s;
+    font-size: 15px;
+}
+
+button:hover {
+    background-color: #224fa7;
+}
+
+/* ===============================
+   RODAPÉ
+================================*/
+footer {
+    text-align: center;
+    padding: 20px;
+    color: #333;
+    margin-top: 40px;
+    font-size: 14px;
+}
+
+
+.projeto img {
+    width: 100%;
+    border-radius: 10px;
+}
